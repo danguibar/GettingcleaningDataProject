@@ -12,7 +12,7 @@ training
 
     * y_train(activity_id 1:6)                                    ->7352 lines	
     * subject_train(person_id 1,3,5,6,7,8,11,14,15,16,17,19,
-                              21,22,23,25,26,27,28,29,30)        ->7352 lines	
+                              21,22,23,25,26,27,28,29,30)         ->7352 lines	
     * X_train(561 result variables-columns)                       ->7352 lines
     * subfolder_train/Inertial Signal(each file is one column)    ->7352 lines
 
@@ -22,18 +22,20 @@ be pasted together, side by side, to get one whole data frame. Once the data is 
 could be describe briefly as follows
 
 Each line has next values
-column 1                  : activity_id(2947 lines with possible values 1 to 6)  
-column 2                  : subject_id( 2947 lines with id of person doing test)  
+
+* column 1                  : activity_id(2947 lines with possible values 1 to 6)  
+* column 2                  : subject_id( 2947 lines with id of person doing test)  
                            the set of subject_ids in subject_test file is 2,4,9,10,12,13,18,20,24
-column 3 upto column 561+2: from X_test file, where each of its values is an observed measure for same activty and individual  :
+* column 3 upto column 561+2: from X_test file, where each of its values is an observed measure for same activty and individual  :
 
 The training data has the same layout as the testing data with only difference being the number of records(7352).
 Each line has next values
-column 1                  : activity_id(2947 lines with possible values 1 to 6)  from y_train file
-column 2                  : subject_id( 2947 lines with id of person doing test) from subject_train file 
+
+* column 1                  : activity_id(2947 lines with possible values 1 to 6)  from y_train file
+* column 2                  : subject_id( 2947 lines with id of person doing test) from subject_train file 
                         the set of subject_ids in subject_train file is 1,3,5,6,7,8,11,14,15,16,17,19
                                                                              21,22,23,25,26,27,28,29,30  
-column 3 upto column 561+2: from X_train file, where each of its values is an observed measure for same activty and individual  :
+* column 3 upto column 561+2: from X_train file, where each of its values is an observed measure for same activty and individual  :
 
 
 
