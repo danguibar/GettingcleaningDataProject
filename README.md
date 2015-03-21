@@ -14,9 +14,9 @@ training
      X_train(561 result variables-columns)                       ->7352 lines
      subfolder_train/Inertial Signal(each file is one column)    ->7352 lines
 
-These are basically two sets of data with the layout.  Files y_test, subject_test, X_test have
+These are basically two sets of data with the same layout.  Files y_test, subject_test, X_test have
 same number of rows sugesting a one to one correspondence as to indicating that they could just
-be pasted together to get one whole data frame. Once the date is pasted we had a layout that 
+be pasted together, side by side, to get one whole data frame. Once the data is pasted we had a layout that 
 could be describe briefly as follows
 
 Each line has next values
