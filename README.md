@@ -37,6 +37,6 @@ Each line has next values
                                                                              21,22,23,25,26,27,28,29,30  
 * column 3 upto column 561+2: from X_train file, where each of its values is an observed measure for same activty and individual  :
 
-
+Finally, I decided to ignore the data in folder 'Inertial Signals' as it would have been left out in the filtering step of the processing script (step 2). They would have made 9 additional columns in both frames for testing and training data.
 
 
