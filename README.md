@@ -8,11 +8,11 @@ test
      subfolder/Inertial Signal(each file is one variable)                       ->2947 lines
 
 training	
-     y_train(activity_id 1:6)                                                   ->7352 lines	
+     y_train(activity_id 1:6)                                    ->7352 lines	
      subject_train(person_id 1,3,5,6,7,8,11,14,15,16,17,19,
-                                                    21,22,23,25,26,27,28,29,30) ->7352 lines	
-     X_train(561 result variables-columns)                                      ->7352 lines
-     subfolder_train/Inertial Signal(each file is one column)                   ->7352 lines
+                              21,22,23,25,26,27,28,29,30)        ->7352 lines	
+     X_train(561 result variables-columns)                       ->7352 lines
+     subfolder_train/Inertial Signal(each file is one column)    ->7352 lines
 
 These are basically two sets of data with the layout.  Files y_test, subject_test, X_test have
 same number of rows sugesting a one to one correspondence as to indicating that they could just
