@@ -2,10 +2,10 @@
 ### Codebook - what is this data about and how can it be all pieced together?
 
 test	
-     y_test(activity_id 1:6)                                                    ->2947 lines	
-     subject_test(person_id  2,4,9,10,12,13,18,20,24)                           ->2947 lines	
-     X_test(561 result variables-columns)                                       –>2947 lines	
-     subfolder/Inertial Signal(each file is one variable)                       ->2947 lines
+     * y_test(activity_id 1:6)                                                    ->2947 lines	
+     * subject_test(person_id  2,4,9,10,12,13,18,20,24)                           ->2947 lines	
+     * X_test(561 result variables-columns)                                       –>2947 lines	
+     * subfolder/Inertial Signal(each file is one variable)                       ->2947 lines
 
 training	
      y_train(activity_id 1:6)                                    ->7352 lines	
